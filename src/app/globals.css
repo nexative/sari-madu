@@ -81,6 +81,7 @@
   --sidebar-accent-foreground: #121212;
   --sidebar-border: #6B6B6B;
   --sidebar-ring: #4A9660;
+  --font-sans: var(--font-geist-sans);
 }
 
 .dark {
@@ -126,5 +127,6 @@
   }
   html {
     @apply font-sans;
+    font-family: var(--font-geist-sans);
   }
 }
